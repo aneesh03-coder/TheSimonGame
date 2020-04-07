@@ -7,7 +7,7 @@ var userClickedPattern=[];
 var level=0;
 var started = false;
 
-$(document).keypress(function() {
+$(document).keydown(function() {
   if (!started) {
 
     //3. The h1 title starts out saying "Press A Key to Start", when the game has started, change this to say "Level 0".
